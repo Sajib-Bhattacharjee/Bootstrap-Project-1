@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/bootstrap/css/bootstrap.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="fonts/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css" />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/css-hamburgers/hamburgers.min.css"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="vendor/select2/select2.min.css"
+    />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/util.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <!--===============================================================================================-->
+
+    <title>Mr.Sourav Mallick</title>
+    <!-- External BootStrape Cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- Ecternal SSS CDN Link -->
+
+    <style type="text/css">
+      .for-header {
+        background-color: indigo;
+      }
+
+      .for-logo-img {
+        height: 80px;
+        width: 80px;
+
+        transition: all 0.6s linear;
+      }
+
+      .for-logo-img:hover {
+        box-shadow: 3px 3px 3px yellow, -3px 3px 3px yellow;
+        transform: scale(1.2) rotate(360deg);
+      }
+      .for-header-heading {
+        margin: 0 auto;
+        color: hotpink;
+
+        border-radius: 20px;
+
+        transition: all 0.6s linear;
+      }
+
+      .for-wellcome-section {
+        color: white;
+      }
+      .sign-up-title {
+        background-color: mediumorchid;
+        color: white;
+        font-weight: bold;
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 30px;
+        text-align: center;
+      }
+      .sign-up {
+        color: white;
+        font-weight: bolder;
+        background-color: black;
+      }
+
+      .for-skills {
+        background-color: antiquewhite;
+      }
+      .skills-title {
+        background-color: coral;
+        color: white;
+        padding: 10px;
+        font-weight: bold;
+      }
+
+      .for-card {
+        transition: all 0.4s linear;
+      }
+      .for-card:hover {
+        transform: scale(1.05);
+      }
+      .for-card-body {
+        background-color: indigo;
+        color: white;
+      }
+
+      .slide-title {
+        background-color: chocolate;
+        color: white;
+        padding: 15px;
+        margin-bottom: 10px;
+        font-size: 30px;
+      }
+
+      .right__div span {
+        text-shadow: 4px 4px 4px red;
+      }
+
+      .for-wellcome-section {
+        background-color: indigo;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!--Header Section Starts Here -->
+
+      <div class="row for-header">
+        <div class="col-lg-2">
+          <img
+            class="d-block m-auto mt-3 mb-2 mt-lg-2 for-logo-img img-fluid rounded-circle"
+            src="./images/profile__img.jpg"
+            alt="This is logo image"
+          />
+        </div>
+        <div class="col-lg-5 m-auto for-header-heading">
+          <h1 class="text-center text-lg-start">Sourva Mallick</h1>
+        </div>
+        <div class="col-lg-5 for-header-nav">
+          <nav>
+            <ul class="nav justify-content-center m-4">
+              <li class="nav-item bg-danger m-2">
+                <a
+                  href="#"
+                  class="nav-link btn btn-outline btn-outline-dark text-white"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item bg-danger m-2">
+                <a
+                  href="#"
+                  class="nav-link btn btn-outline btn-outline-dark text-white"
+                  >Details</a
+                >
+              </li>
+              <li class="nav-item bg-danger m-2">
+                <a
+                  href="#"
+                  class="nav-link btn btn-outline btn-outline-dark text-white"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item bg-danger m-2">
+                <a
+                  href="#"
+                  class="nav-link btn btn-outline btn-outline-dark text-white"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <!--Header Section ends here -->
+
+      <!-- Wellcome Section starts here -->
+
+      <div class="sing-up-section">
+        <div class="sign-up-title">
+          <h>WellCome and Sign-up Here </h>
+        </div>
+
+        <div class="row for-wellcome-section">
+          <div class="wellcome-desc col-sm-12 col-md-6 bg-p-4">
+            <h1>Hay!!! Wellcome...</h1>
+            <h2>I'm a frontend web-developer</h2>
+            <p class="text-white fw-bold">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium voluptas odio porro impedit in nam enim, natus illo
+              eum vero sit rem non dicta sequi ut totam esse nemo sunt alias
+              eveniet? Enim repudiandae esse reiciendis eligendi molestiae iusto
+              numquam?
+            </p>
+            <button
+              class="btn btn-outline-primary text-white"
+              style="font-size: 20px"
+            >
+              <a href="http://www.google.com" target="blank">More On...</a>
+            </button>
+          </div>
+
+          <div class="sign-up col-sm-12 col-md-6 p-4">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  placeholder="Mr/Mrs. Pls! Enter your mail"
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+                <div id="emailHelp" class="form-text text-white">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Password</label
+                >
+                <input
+                  placeholder="Enter your password"
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Check me out</label
+                >
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wellcome Section ends here -->
+
+      <!--Skills Section Starts Here -->
+
+      <div class="for-skills">
+        <div class="skills-title text-center mb-3">
+          <h3>Skills && Experiences</h3>
+        </div>
+
+        <div class="row skills-container">
+          <div class="card for-card col-sm-6 col-md-4 col-lg-3 mb-4">
+            <img
+              src="./images/c++.png"
+              class="card-img-top"
+              alt="This is card image"
+            />
+            <div class="card-body for-card-body">
+              <h5 class="card-title">C-Programming</h5>
+              <p class="card-text text-white">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
+                iste adipisci corrupti rerum. Optio blanditiis dolor debitis
+                reiciendis minus maxime voluptatum quidem voluptatem possimus!
+              </p>
+              <a href="#" class="btn btn-info">Learn More.</a>
+            </div>
+          </div>
+
+          <div class="card for-card col-sm-6 col-md-4 col-lg-3 mb-4">
+            <img
+              src="./images/c++.png"
+              class="card-img-top"
+              alt="This is card image"
+            />
+            <div class="card-body" style="background-color: teal; color: white">
+              <h5 class="card-title">C++ Object Oriented</h5>
+              <p class="card-text text-white">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
+                iste adipisci corrupti rerum. Optio blanditiis dolor debitis
+                reiciendis minus maxime voluptatum quidem voluptatem possimus!
+              </p>
+              <a href="#" class="btn btn-info">Learn More.</a>
+            </div>
+          </div>
+
+          <div class="card for-card col-sm-6 col-md-4 col-lg-3 mb-4">
+            <img
+              src="./images/java.png"
+              class="card-img-top"
+              alt="This is card image"
+            />
+            <div
+              class="card-body"
+              style="background-color: hotpink; color: white"
+            >
+              <h5 class="card-title">Java-Programming</h5>
+              <p class="card-text text-white">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
+                iste adipisci corrupti rerum. Optio blanditiis dolor debitis
+                reiciendis minus maxime voluptatum quidem voluptatem possimus!
+              </p>
+              <a href="#" class="btn btn-info">Learn More.</a>
+            </div>
+          </div>
+
+          <div class="card for-card col-sm-6 col-md-4 col-lg-3 mb-4">
+            <img
+              src="./images/java-swing.png"
+              class="card-img-top"
+              alt="This is card image"
+            />
+            <div
+              class="card-body"
+              style="background-color: darkmagenta; color: white"
+            >
+              <h5 class="card-title">Java-Swing</h5>
+              <p class="card-text text-white">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
+                iste adipisci corrupti rerum. Optio blanditiis dolor debitis
+                reiciendis minus maxime voluptatum quidem voluptatem possimus!
+              </p>
+              <a href="#" class="btn btn-info">Learn More.</a>
+            </div>
+          </div>
+
+          <div class="card for-card col-sm-6 col-md-4 col-lg-3 mb-4">
+            <img
+              src="./images/html.png"
+              class="card-img-top"
+              alt="This is card image"
+            />
+            <div
+              class="card-body"
+              style="background-color: chocolate; color: white"
+            >
+              <h5 class="card-title">Learn HTML</h5>
+              <p class="card-text text-white">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
+                iste adipisci corrupti rerum. Optio blanditiis dolor debitis
+                reiciendis minus maxime voluptatum quidem voluptatem possimus!
+              </p>
+              <a href="#" class="btn btn-info">Learn More.</a>
+            </div>
+          </div>
+
+          <div class="card for-card col-sm-6 col-md-4 col-lg-3 mb-4">
+            <img
+              src="./images/ui.jpg"
+              class="card-img-top"
+              alt="This is card image"
+            />
+            <div
+              class="card-body text-white"
+              style="background-color: burlywood; color: white"
+            >
+              <h5 class="card-title">Learn CSS</h5>
+              <p class="card-text text-white">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
+                iste adipisci corrupti rerum. Optio blanditiis dolor debitis
+                reiciendis minus maxime voluptatum quidem voluptatem possimus!
+              </p>
+              <a href="#" class="btn btn-info">Learn More.</a>
+            </div>
+          </div>
+
+          <div class="card for-card col-sm-6 col-md-4 col-lg-3 mb-4">
+            <img
+              src="./images/ui3.jpg"
+              class="card-img-top"
+              alt="This is card image"
+            />
+            <div class="card-body" style="background-color: gray; color: white">
+              <h5 class="card-title">Learn BootStrape</h5>
+              <p class="card-text text-white">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
+                iste adipisci corrupti rerum. Optio blanditiis dolor debitis
+                reiciendis minus maxime voluptatum quidem voluptatem possimus!
+              </p>
+              <a href="#" class="btn btn-info">Learn More.</a>
+            </div>
+          </div>
+
+          <div class="card for-card col-sm-6 col-md-4 col-lg-3 mb-4">
+            <img
+              src="./images/ui2.jpg"
+              class="card-img-top"
+              alt="This is card image"
+            />
+            <div
+              class="card-body"
+              style="background-color: green; color: white"
+            >
+              <h5 class="card-title">Microsoft Word</h5>
+              <p class="card-text text-white">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
+                iste adipisci corrupti rerum. Optio blanditiis dolor debitis
+                reiciendis minus maxime voluptatum quidem voluptatem possimus!
+              </p>
+              <a href="#" class="btn btn-info">Learn More.</a>
+            </div>
+          </div>
+
+          <div class="card for-card col-sm-6 col-md-4 col-lg-3 mb-4">
+            <img
+              src="./images/excel.png"
+              class="card-img-top"
+              alt="This is card image"
+            />
+            <div
+              class="card-body text-white"
+              style="background-color: mediumorchid; color: white"
+            >
+              <h5 class="card-title">Microsoft Excel</h5>
+              <p class="card-text text-white">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
+                iste adipisci corrupti rerum. Optio blanditiis dolor debitis
+                reiciendis minus maxime voluptatum quidem voluptatem possimus!
+              </p>
+              <a href="#" class="btn btn-info">Learn More.</a>
+            </div>
+          </div>
+
+          <div class="card for-card col-sm-6 col-md-4 col-lg-3 mb-4">
+            <img
+              src="./images/ui8.jpg"
+              class="card-img-top"
+              alt="This is card image"
+            />
+            <div
+              class="card-body"
+              style="background-color: maroon; color: white"
+            >
+              <h5 class="card-title">Microsoft-Powerpoint</h5>
+              <p class="card-text text-white">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
+                iste adipisci corrupti rerum. Optio blanditiis dolor debitis
+                reiciendis minus maxime voluptatum quidem voluptatem possimus!
+              </p>
+              <a href="#" class="btn btn-info">Learn More.</a>
+            </div>
+          </div>
+
+          <div class="card for-card col-sm-6 col-md-4 col-lg-3 mb-4">
+            <img
+              src="./images/ui7.jpg"
+              class="card-img-top"
+              alt="This is card image"
+            />
+            <div
+              class="card-body"
+              style="background-color: olivedrab; color: white"
+            >
+              <h5 class="card-title">Learn JavaScript</h5>
+              <p class="card-text text-white">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
+                iste adipisci corrupti rerum. Optio blanditiis dolor debitis
+                reiciendis minus maxime voluptatum quidem voluptatem possimus!
+              </p>
+              <a href="#" class="btn btn-info">Learn More.</a>
+            </div>
+          </div>
+
+          <div class="card for-card col-sm-6 col-md-4 col-lg-3 mb-4">
+            <img
+              src="./images/ui4.jpg"
+              class="card-img-top"
+              alt="This is card image"
+            />
+            <div class="card-body" style="background-color: peru; color: white">
+              <h5 class="card-title">Learn React</h5>
+              <p class="card-text text-white">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
+                iste adipisci corrupti rerum. Optio blanditiis dolor debitis
+                reiciendis minus maxime voluptatum quidem voluptatem possimus!
+              </p>
+              <a href="#" class="btn btn-info">Learn More.</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills Section ends here -->
+
+      <!-- My Slide Share Section Starts Here -->
+
+      <div class="my-slideshare-section">
+        <div class="slide-title text-center">
+          <h3>My Slide-Shares</h3>
+        </div>
+
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./images/Slideshare/slide1.jpg"
+                class="d-block w-100"
+                alt="Slides Image"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p class="text-white">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                  illo ea blanditiis magni quaerat deserunt sint, neque
+                  consequatur nesciunt ipsa ad, a accusamus! Consequatur,
+                  corporis officia.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/Slideshare/slide2.jpg"
+                class="d-block w-100"
+                alt="Slide Image"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p class="text-white">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Temporibus mollitia sed animi praesentium facilis dolor,
+                  consectetur fugit? Nemo ipsam totam repellat, officiis
+                  voluptas odio harum.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./images/Slideshare/slide3.jpg"
+                class="d-block w-100"
+                alt="Slide Image"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p class="text-white">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Cupiditate quam aliquam nobis minus provident, doloremque,
+                  facere cumque quasi quibusdam, explicabo laborum. Culpa,
+                  ipsum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- My Slide Share Sectino Ends Here -->
+
+      <!-- Contact Me Section Starts Here  -->
+      <div class="contact1">
+        <div class="container-contact1">
+          <div class="contact1-pic js-tilt" data-tilt>
+            <img src="images/img-01.png" alt="IMG" />
+          </div>
+
+          <form class="contact1-form validate-form">
+            <span class="contact1-form-title"> Get in touch </span>
+
+            <div
+              class="wrap-input1 validate-input"
+              data-validate="Name is required"
+            >
+              <input
+                class="input1"
+                type="text"
+                name="name"
+                placeholder="Name"
+              />
+              <span class="shadow-input1"></span>
+            </div>
+
+            <div
+              class="wrap-input1 validate-input"
+              data-validate="Valid email is required: ex@abc.xyz"
+            >
+              <input
+                class="input1"
+                type="text"
+                name="email"
+                placeholder="Email"
+              />
+              <span class="shadow-input1"></span>
+            </div>
+
+            <div
+              class="wrap-input1 validate-input"
+              data-validate="Subject is required"
+            >
+              <input
+                class="input1"
+                type="text"
+                name="subject"
+                placeholder="Subject"
+              />
+              <span class="shadow-input1"></span>
+            </div>
+
+            <div
+              class="wrap-input1 validate-input"
+              data-validate="Message is required"
+            >
+              <textarea
+                class="input1"
+                name="message"
+                placeholder="Message"
+              ></textarea>
+              <span class="shadow-input1"></span>
+            </div>
+
+            <div class="container-contact1-form-btn">
+              <button class="contact1-form-btn">
+                <span>
+                  Send Email
+                  <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                </span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Contact Me Section Ends Here  -->
+
+      <!-- Footer Section Starts Here  -->
+      <div class="footer">
+        <div class="row">
+          <div
+            class="left__div col-sm-12 col-md-6 text-center bg-dark text-white fw-bolder p-sm-2 p-md-4"
+          >
+            <h3>All Right Reserved &copy; Sourav Mallick 2021</h3>
+          </div>
+          <div
+            class="right__div col-sm-12 col-md-6 text-center bg-dark text-white fw-bolder p-sm-2 p-md-4"
+          >
+            <h3>This is site is Developed with ❤️ <span>L</span>ove.</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section Ends Here  -->
+
+    <!-- JQuery , Poperjs, JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
